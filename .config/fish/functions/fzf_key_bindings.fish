@@ -1,0 +1,1 @@
+/home/navin/.fzf/shell/key-bindings.fish

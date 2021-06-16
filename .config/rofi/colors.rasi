@@ -1,0 +1,7 @@
+/* colors */
+
+* {
+  text-color: #ffffffff;
+  selected-color: #282c34ff;
+  bg: #18191cff;
+}

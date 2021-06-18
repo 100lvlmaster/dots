@@ -8,6 +8,15 @@
 
 My config for the Qtile Window Manager
 
+## Screenshots
+
+![screenshot-1.png](screenshots/1.png)
+
+![screenshot-2.png](screenshots/2.png)
+
+![screenshot-3.png](screenshots/3.png)
+_polybar for menu_
+
 ### This contains configs for
 
 - wallpapers

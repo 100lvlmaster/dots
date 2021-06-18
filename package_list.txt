@@ -162,6 +162,7 @@ sddm
 sed
 simple-scan
 slack-desktop
+spectacle
 spotify
 spotify-adblock-git
 st

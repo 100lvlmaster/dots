@@ -18,10 +18,11 @@ cp -R ~/.vimrc ./
 # Wallpapers
 cp -R ~/wallpapers ./
 
+# Save all packages to this text file 
+pacman -Qe | awk '{print $1}' > package_list.txt
+
 # Push to git
 git add .
 git commit -m $((1 + $RANDOM % 10))
 git push
 
-# Save all packages to this text file 
-pacman -Qe | awk '{print $1}' > package_list.txt

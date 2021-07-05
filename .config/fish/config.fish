@@ -7,7 +7,6 @@ set -g GOPATH $HOME/go
 set -gx PATH $GOPATH/bin $PATH
 
 #   Aliases
-alias code="vscodium"
 alias open="dolphin"
 alias cl="clear"
 

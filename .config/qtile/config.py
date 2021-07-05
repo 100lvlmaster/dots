@@ -217,13 +217,16 @@ floating_layout = layout.Floating(float_rules=[
     Match(wm_class='makebranch'),  # gitk
     Match(wm_class='maketag'),  # gitk
     Match(wm_class='ssh-askpass'),  # ssh-askpass
+    Match(wm_class='zoom'),  # Zoom selector
     Match(wm_class='coreshot'),  # gitk
     Match(title='coreshot'),  # gitk
     Match(title='Screenshot'),  # screenshor
     Match(title='branchdialog'),  # gitk
     Match(title='pinentry'),  # GPG key password entry
     Match(title='Emoji Selector'),  # Emoji selector
-],
+    Match(title='Zoom'),  # Emoji selector
+
+    ],
     border_width=0,
 )
 auto_fullscreen = True

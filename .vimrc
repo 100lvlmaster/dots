@@ -54,5 +54,18 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 
+" [ TypeScript ] "
+Plug 'leafgarland/typescript-vim'
+
+" [ Tree-sitter ] "
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
+
+Plug 'folke/tokyonight.nvim'
+
 call plug#end()
 
+
+let g:tokyonight_style = "night"
+let g:tokyonight_italic_functions = 1
+let g:tokyonight_sidebars = [ "qf", "vista_kind", "terminal", "packer" ]
+colorscheme tokyonight

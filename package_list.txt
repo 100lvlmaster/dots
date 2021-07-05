@@ -14,6 +14,7 @@ base
 binutils
 bison
 bitwarden
+bitwarden-cli
 bluedevil
 brave-bin
 breeze
@@ -105,7 +106,6 @@ gvim
 gzip
 heroku-cli-bin
 htop
-insomnia-bin
 intel-ucode
 joplin-appimage
 kactivitymanagerd
@@ -119,6 +119,7 @@ khotkeys
 kinfocenter
 kitty
 kmenuedit
+kotlin
 kscreen
 kscreenlocker
 ksshaskpass
@@ -145,8 +146,9 @@ mongodb-bin
 mutter
 nautilus
 neofetch
-neovim
+neovim-airline
 neovim-minpac-git
+neovim-nightly-bin
 neovim-plug
 neovim-qt
 nerd-fonts-anonymous-pro
@@ -162,7 +164,7 @@ orca
 oxygen
 pacman
 pamac-aur
-paru
+paru-bin
 patch
 pcmanfm
 pfetch
@@ -183,6 +185,7 @@ plasma-wayland-session
 plasma-workspace
 plasma-workspace-wallpapers
 playerctl
+pnpm
 polkit-gnome
 polkit-kde-agent
 popcorntime-bin
@@ -211,6 +214,7 @@ spotify
 spotify-adblock-git
 st
 stacer
+stow
 sudo
 sushi
 systemsettings
@@ -227,12 +231,14 @@ tracker3-miners
 ttf-fira-code
 vim-plug
 vino
+visual-studio-code-bin
 vlc
 vscodium-bin
 vscodium-bin-features
 vscodium-bin-marketplace
 w3m
 w3m-imgcat
+webtorrent-desktop-bin
 which
 xdg-desktop-portal-kde
 xdg-user-dirs-gtk

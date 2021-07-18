@@ -145,11 +145,11 @@ screens = [
                     rounded=True,
                     font="Fira Code",
                     highlight_method="block",
-                    highlight_color=palette.WHITE,
-                    block_highlight_text_color=palette.DARK,
-                    this_current_screen_border=palette.WHITE,
-                    foreground=palette.DARK,
-                    background=palette.WHITE,
+                    highlight_color=palette.SECONDARY,
+                    block_highlight_text_color=palette.WHITE,
+                    this_current_screen_border=palette.SECONDARY,
+                    foreground=palette.WHITE,
+                    background=palette.SECONDARY,
                     hide_unused=True
                 ),
                 widget.Prompt(),
@@ -188,7 +188,7 @@ screens = [
             20,
             margin=[10, 10, 0, 10],
             background=palette.DARK,
-            opacity=1
+            opacity=1,
         ),
     ),
 ]
@@ -226,7 +226,7 @@ floating_layout = layout.Floating(float_rules=[
     Match(title='Emoji Selector'),  # Emoji selector
     Match(title='Zoom'),  # Emoji selector
 
-    ],
+],
     border_width=0,
 )
 auto_fullscreen = True

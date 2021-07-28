@@ -19,8 +19,10 @@ breeze-blue-cursor-theme
 breeze-default-cursor-theme
 btrfs-progs
 cheese
+dbeaver
 deluge-gtk
 discord
+dmidecode
 docker
 docker-compose
 dunst
@@ -101,7 +103,7 @@ gvim
 gzip
 htop
 intel-ucode
-joplin-appimage
+jdk8-openjdk
 kdeconnect
 kitty
 kotlin
@@ -127,6 +129,7 @@ nerd-fonts-anonymous-pro
 nerd-fonts-droid-sans-mono
 nerd-fonts-fantasque-sans-mono
 nerd-fonts-fira-code
+netbeans
 network-manager-applet
 networkmanager
 nitrogen
@@ -147,7 +150,7 @@ pkgconf
 playerctl
 pnpm
 polkit-gnome
-popcorntime-bin
+postgresql
 pstate-frequency
 pulseaudio
 python-pip
@@ -200,6 +203,8 @@ whois
 xdg-user-dirs-gtk
 xf86-video-intel
 xf86-video-vesa
+xmonad
+xmonad-contrib
 xorg-docs
 xorg-fonts-100dpi
 xorg-fonts-75dpi

@@ -160,11 +160,6 @@ screens = [
                     format='{name}'
                 ),
                 widget.Spacer(),
-                widget.Mpris2(background='ffffff', foreground='000000', name='spotify',
-                              stop_pause_text='▶', scroll_chars=None,
-                              fontsize=8,
-                              display_metadata=['xesam:title', 'xesam:artist'],
-                              objname="org.mpris.MediaPlayer2.spotify"),
                 separator,
                 widget.Volume(
                     # emoji=True

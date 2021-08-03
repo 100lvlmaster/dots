@@ -19,9 +19,9 @@ breeze-blue-cursor-theme
 breeze-default-cursor-theme
 btrfs-progs
 cheese
-dbeaver
 deluge-gtk
 discord
+dmenu
 dmidecode
 docker
 docker-compose
@@ -101,6 +101,7 @@ gvfs-nfs
 gvfs-smb
 gvim
 gzip
+heroku-cli-bin
 htop
 intel-ucode
 jdk8-openjdk
@@ -129,7 +130,6 @@ nerd-fonts-anonymous-pro
 nerd-fonts-droid-sans-mono
 nerd-fonts-fantasque-sans-mono
 nerd-fonts-fira-code
-netbeans
 network-manager-applet
 networkmanager
 nitrogen
@@ -150,7 +150,6 @@ pkgconf
 playerctl
 pnpm
 polkit-gnome
-postgresql
 pstate-frequency
 pulseaudio
 python-pip
@@ -173,12 +172,12 @@ spotify
 spotify-adblock-git
 st
 stacer
-steam
 stow
 sudo
 sushi
 tableplus
 tela-icon-theme
+telegram-desktop
 texinfo
 tmux
 totem
@@ -203,8 +202,7 @@ whois
 xdg-user-dirs-gtk
 xf86-video-intel
 xf86-video-vesa
-xmonad
-xmonad-contrib
+xmobar
 xorg-docs
 xorg-fonts-100dpi
 xorg-fonts-75dpi
@@ -221,6 +219,7 @@ xorg-xdpyinfo
 xorg-xdriinfo
 xorg-xev
 xorg-xgamma
+xorg-xinit
 xorg-xinput
 xorg-xkbevd
 xorg-xkbutils
@@ -229,11 +228,13 @@ xorg-xlsatoms
 xorg-xlsclients
 xorg-xpr
 xorg-xrefresh
+xorg-xsetroot
 xorg-xvinfo
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
 xsel
+xterm
 yay
 yelp
 zoom

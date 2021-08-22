@@ -1,26 +1,19 @@
-#!/bin/sh
+#! /bin/sh
 
 # Configs
-cp -R ~/.config/kitty/ ./.config/
-cp -R ~/.config/qtile ./.config/
-cp -R ~/.config/rofi ./.config/
-cp -R ~/.config/picom ./.config/
-cp -R ~/.config/dunst ./.config/
-cp -R ~/.config/redshift ./.config/
-cp -R ~/.config/fish ./.config/
-cp -R ~/.config/nvim/init.vim ./.config/nvim
-cp -R ~/.config/nvim/coc-settings.json ./.config/nvim
-cp -R ~/.zshrc ./
-cp -R ~/.bashrc ./
-cp -R ~/.nvimrc ./
-cp -R ~/.vimrc ./
+echo 'Copying dot files...'
+cp -R ~/{.zshrc,.vimrc,.bashrc,autostart.sh} .
+cp -R ~/.config/{alacritty,kitty,qtile,rofi,picom,dunst,redshift,fish,nvim/{init.vim,coc-settings.json}} ./.config/
 
 # Wallpapers
+echo 'Copying wallpapers...'
 cp -R ~/wallpapers ./
 
 # Save all packages to this text file 
+echo 'Listing packages...'
 pacman -Qe | awk '{print $1}' > package_list.txt
 
+echo 'Pushing to git...'
 # Push to git
 git add .
 git commit -m $((1 + $RANDOM % 10))

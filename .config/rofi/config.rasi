@@ -1,6 +1,6 @@
 
 configuration {
-    font:							"Fira Code 10";
+    font:							"Fira Code 9";
     show-icons:                     true;
 	icon-theme: 					"Tela";
     display-drun: 					":";

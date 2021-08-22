@@ -59,13 +59,14 @@ Plug 'leafgarland/typescript-vim'
 
 " [ Tree-sitter ] "
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
+Plug 'ghifarit53/tokyonight-vim'
 
-Plug 'folke/tokyonight.nvim'
 
 call plug#end()
 
+set termguicolors
 
-let g:tokyonight_style = "night"
-let g:tokyonight_italic_functions = 1
-let g:tokyonight_sidebars = [ "qf", "vista_kind", "terminal", "packer" ]
+let g:tokyonight_style = 'night' " available: night, storm
+let g:tokyonight_enable_italic = 1
+
 colorscheme tokyonight

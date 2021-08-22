@@ -7,7 +7,7 @@ set -g GOPATH $HOME/go
 set -gx PATH $GOPATH/bin $PATH
 
 #   Aliases
-alias open="dolphin"
+alias open="xdg-open"
 alias cl="clear"
 
 starship init fish | source

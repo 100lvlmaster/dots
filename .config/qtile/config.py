@@ -16,8 +16,8 @@ import os
 
 
 @hook.subscribe.startup
-def autostart():
-    home = os.path.expanduser('~/.config/qtile/autostart.sh')
+def start():
+    home = os.path.join(os.path.expanduser('~'), "autostart.sh")
     subprocess.call([home])
 
 
@@ -124,8 +124,8 @@ layouts = [
 ]
 
 widget_defaults = dict(
-    font='Fira Code',
-    fontsize=12,
+        font='Fira Code',
+    fontsize=10,
     padding=7,
 )
 extension_defaults = widget_defaults.copy()

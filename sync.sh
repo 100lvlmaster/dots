@@ -3,11 +3,7 @@
 # Configs
 echo 'Copying dot files...'
 cp -R ~/{.zshrc,.vimrc,.bashrc,autostart.sh} .
-cp -R ~/.config/{alacritty,kitty,qtile,rofi,picom,dunst,redshift,fish,nvim/{init.vim,coc-settings.json}} ./.config/
-
-# Wallpapers
-echo 'Copying wallpapers...'
-cp -R ~/wallpapers ./
+cp -R ~/.config/{alacritty,kitty,qtile,rofi,picom,dunst,redshift,fish,nvim} ./.config/
 
 # Save all packages to this text file 
 echo 'Listing packages...'

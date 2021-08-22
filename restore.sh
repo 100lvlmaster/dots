@@ -9,7 +9,7 @@ mkdir -p ~/Docs/{flutter,cloned,go,dockers,test,nextjs}
 curl -fsSL https://starship.rs/install.sh | bash
 
 # Restore configs
-cp -R ./{.config,.bashrc,.zshrc,.vimrc} ~/
+cp -R ./{.config,.bashrc,.zshrc,.vimrc,autostart.sh} ~/
 
 
 # Set wallpaper

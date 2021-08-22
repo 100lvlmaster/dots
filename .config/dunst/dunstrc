@@ -1,7 +1,7 @@
 
 [colors]
     frame = "#ffffff"
-	background = "#18191c"
+    background = "#1A1B26"
     foreground = "#ffffff"
 
 [global]
@@ -67,7 +67,7 @@
     max_icon_size = 50
 
     # Paths to default icons.
-    icon_path = /usr/share/icons/candy-icons/apps/scalable:/usr/share/icons/candy-icons/devices/scalable/
+    #icon_path = /usr/share/icons/candy-icons/apps/scalable:/usr/share/icons/candy-icons/devices/scalable/
 
     ### History ###
 

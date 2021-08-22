@@ -125,7 +125,7 @@ layouts = [
 
 widget_defaults = dict(
         font='Fira Code',
-    fontsize=10,
+    fontsize=11,
     padding=7,
 )
 extension_defaults = widget_defaults.copy()
@@ -140,16 +140,16 @@ screens = [
                     fontsize=12,
                     padding_x=5,
                     borderwidth=0,
-                    active=palette.DARK,
-                    inactive=palette.DARK,
+                    active=palette.WHITE,
+                    inactive=palette.WHITE,
                     rounded=True,
                     font="Fira Code",
                     highlight_method="block",
-                    highlight_color=palette.SECONDARY,
+                    highlight_color=palette.DARK,
                     block_highlight_text_color=palette.WHITE,
                     this_current_screen_border=palette.SECONDARY,
-                    foreground=palette.WHITE,
-                    background=palette.SECONDARY,
+                    foreground=palette.DARK,
+                    background=palette.DARK,
                     hide_unused=True
                 ),
                 widget.Prompt(),
@@ -166,17 +166,6 @@ screens = [
                 ),
                 separator,
                 widget.Systray(),
-                # separator,
-                # widget.Pomodoro(
-                #     background=palette.WHITE,
-                #     foreground=palette.DARK,
-                #     prefix_inactive="focus",
-                #     color_inactive=palette.DARK,
-                #     color_break=palette.DARK,
-                #     color_active=palette.DARK,
-                #     color_paused=palette.DARK,
-                #     prefix_paused="paused",
-                # ),
                 widget.Clock(format='%a %I:%M %p',
                              padding=10,),
             ],

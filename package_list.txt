@@ -95,7 +95,6 @@ redshift
 ristretto
 rofi
 rofi-emoji
-rxvt-unicode
 scrcpy
 sddm
 skeuos-gtk-theme-git
@@ -111,7 +110,6 @@ thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-volman
 ttf-fira-code
-ttf-hellvetica
 ttf-roboto
 tumbler
 vim

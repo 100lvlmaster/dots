@@ -30,16 +30,16 @@ _polybar for menu_
 
 #### Sync config
 
-_sync_config.sh_
+_sync.sh_
 
 To run:
 
-`./sync_config.sh`
+`./sync.sh`
 
 #### Restore config
 
-_restore_config.sh_
+_restore.sh_
 
 To run:
 
-`./restore_config.sh`
+`./restore.sh`

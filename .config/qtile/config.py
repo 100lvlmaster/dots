@@ -115,7 +115,8 @@ for i in groups:
 palette = Colors()
 
 layouts = [
-    layout.Columns(border_focus="1F84F9",
+    layout.Columns(border_focus="B2BEB5",
+        border_normal="B2BEB5",
                    border_width=0,
                    margin=[10, 10, 10, 10],
                    font="Fira Code",

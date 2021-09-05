@@ -1,7 +1,7 @@
 /* colors */
 
 * {
-  text-color: #ffffffff;
+  text-color: #fff;
   selected-color: #282c34ff;
-  bg: #18191cff;
+  bg: #1A1B26;
 }

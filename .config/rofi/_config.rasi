@@ -9,33 +9,30 @@ configuration {
     fullscreen:                     false;
 	hide-scrollbar: 				true;
 	sidebar-mode: 					true;
+    steal-focus:                    true;
 }
-
 
 @import "colors.rasi"
 
 window {
+    transparency:                   "real";
     background-color:               @bg;
     text-color:                     @text-color;
 	border:							0px;
-	border-color:					white;
-    border-radius:                  10px;
-	width:							30%;
+	border-color:					@ac;
+    border-radius:                  12px;
+	width:							35%;
     location:                       center;
     x-offset:                       0;
     y-offset:                       0;
-}
-
-scrollbar {
-    background-color:               @selected-color;
-    text-color:                     white;
+    
 }
 
 prompt {
-	background-color: 				@bg;
-	text-color: 					@text-color;
     enabled: 						true;
 	padding: 						0.30% 1% 0% -0.5%;
+	background-color: 				@bg;
+	text-color: 					@text-color;
 	font:							"Fira Code 10";
 }
 
@@ -57,18 +54,18 @@ inputbar {
     expand:                         false;
 	border:							0% 0% 0% 0%;
     border-radius:                  0px;
-	border-color:					@selected-color;
+	border-color:					@ac;
     margin:                         0% 0% 0% 0%;
     padding:                        1.5%;
 }
 
 listview {
-    background-color:               @bg;
-    padding:                        0px;
+    background-color:               "#000";
+    padding:                        10px;
     columns:                        5;
     lines:                          3;
     spacing:                        0%;
-    cycle:                          true;
+    cycle:                          false;
     dynamic:                        true;
     layout:                         vertical;
 }
@@ -89,36 +86,43 @@ element {
     orientation:                    vertical;
     border-radius:                  0%;
     padding:                        2% 0% 2% 0%;
-    // padding:                        0% 0% 0% 0%;
-    // Change padding here
+    border-radius:                  0%;
+    selected-color:                 @bg;
+    border:                         0px;
 }
 
-element-icon { 
-    background-color:               @bg;
-    text-color:                     @text-color;
-    size:                           50px;
+element-icon {
+    size:                           60px;
     border:                         0px;
     horizontal-align:               0.5;
     vertical-align:                 0.5;
-}
-element-text {
     background-color:               @bg;
     text-color:                     @text-color;
+    orientation:                    vertical;
+    border-radius:                  0%;
+}
+element-icon selected {
+    size:                           60px;
+    border:                         0px;
     horizontal-align:               0.5;
     vertical-align:                 0.5;
+    background-color:               @bg;
+    text-color:                     @text-color;
+    orientation:                    vertical;
+    border-radius:                  0%;
 }
 
+element-text {
+    expand:                         true;
+    horizontal-align:               0.5;
+    vertical-align:                 0.5;
+    margin:                         0.5% 0.5% -0.5% 0.5%;
+}
 
 element selected {
-    background-color:               @selected-color;
+    background-color:               "#1A1B26";
     text-color:                     @text-color;
-}
-element-text selected {
-    background-color:               @selected-color;
-    text-color:                     @text-color;
-}
-
-element-icon selected { 
-    background-color:               @selected-color;
-    text-color:                     @text-color;
+	border:							0% 0% 0% 0%;
+    border-radius:                  0px;
+    border-color:                  	@text-color;
 }

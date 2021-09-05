@@ -9,5 +9,6 @@ set -gx PATH $GOPATH/bin $PATH
 #   Aliases
 alias open="xdg-open"
 alias cl="clear"
+alias r="ranger"
 
 starship init fish | source

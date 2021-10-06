@@ -8,7 +8,13 @@ dunst &
 /usr/lib/pam_kwallet_init &
 
 # Network manager for non ethernet connections
+pkill volumeicon 
+pkill cbatticon
+pkill xfce4-power-manager
 nm-applet &
+volumeicon &
+cbatticon &
+xfce4-power-manager &
 
 # Not using picom atm
 # picom &

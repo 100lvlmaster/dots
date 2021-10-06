@@ -76,8 +76,8 @@ keys = [
     Key([mod], "o", lazy.spawn('rofi -show drun')),
 
     # Volume controls
-    Key([mod], "Up", lazy.spawn('pactl set-sink-volume 0 +5%')),
-    Key([mod], "Down", lazy.spawn('pactl set-sink-volume 0 -5%')),
+    Key([], "XF86AudioRaiseVolume", lazy.spawn('pactl set-sink-volume 0 +5%')),
+    Key([], "XF86AudioLowerVolume", lazy.spawn('pactl set-sink-volume 0 -5%')),
 
     # Media controls
     Key([mod], "Left", lazy.spawn('playerctl previous')),
@@ -86,7 +86,10 @@ keys = [
 
     # Emoji Rofi launcher
     Key([mod], "period", lazy.spawn('rofi -show emoji -modi emoji')),
+    #     Key([], 'XF86MonBrightnessUp',   lazy.spawn('rofi -show drun')),
+    # Key([], 'XF86MonBrightnessDown', lazy.function(backlight('dec'))),
 ]
+
 
 groups = []
 
@@ -116,7 +119,7 @@ palette = Colors()
 
 layouts = [
     layout.Columns(border_focus="B2BEB5",
-        border_normal="B2BEB5",
+                   border_normal="B2BEB5",
                    border_width=0,
                    margin=[10, 10, 10, 10],
                    font="Fira Code",
@@ -125,7 +128,7 @@ layouts = [
 ]
 
 widget_defaults = dict(
-        font='Fira Code',
+    font='Fira Code',
     fontsize=11,
     padding=7,
 )
@@ -161,10 +164,6 @@ screens = [
                     format='{name}'
                 ),
                 widget.Spacer(),
-                separator,
-                widget.Volume(
-                    # emoji=True
-                ),
                 separator,
                 widget.Systray(),
                 widget.Clock(format='%a %I:%M %p',

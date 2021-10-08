@@ -104,6 +104,7 @@ gedit
 gettext
 ghex
 git
+github-desktop
 glade
 glances
 gnome-backgrounds
@@ -435,6 +436,7 @@ reiserfsprogs
 ristretto
 rocs
 rofi
+rofi-emoji
 rp-pppoe
 rxvt-unicode-terminfo
 rygel
@@ -463,6 +465,7 @@ sysfsutils
 sysprof
 systemd-resolvconf
 systemd-sysvcompat
+tableplus
 tali
 tcpdump
 telepathy-kde-accounts-kcm
@@ -516,6 +519,7 @@ woff-fira-code
 woff2-fira-code
 wpa_supplicant
 wvdial
+xclip
 xdg-user-dirs-gtk
 xed
 xf86-input-libinput
@@ -585,6 +589,7 @@ xorg-xwayland
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
+xsel
 xz
 yad-eos
 yakuake

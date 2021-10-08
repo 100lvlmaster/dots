@@ -76,6 +76,11 @@ keys = [
     Key([mod], "o", lazy.spawn('rofi -show drun')),
 
     # Volume controls
+    # Command amixer set Capture nocap  
+    #KEYNAME
+
+    Key([], "XF86AudioMicMute", lazy.spawn('amixer set Capture toggle && amixer get Capture | grep \'\[off\]\' && notify-send "MIC switched OFF" || notify-send "MIC switched ON"')),
+    Key([], "XF86AudioMute", lazy.spawn('amixer set Master toggle')),
     Key([], "XF86AudioRaiseVolume", lazy.spawn('pactl set-sink-volume 0 +5%')),
     Key([], "XF86AudioLowerVolume", lazy.spawn('pactl set-sink-volume 0 -5%')),
 
